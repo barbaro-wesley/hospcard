@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>HospCard</title>
+  <title>HospiCard</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <style>
+    /* Estilo para o botão flutuante do WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 50px;
+      right: 30px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      cursor: pointer;
+    }
 
-  <!-- Main CSS File -->
+    .whatsapp-float:hover {
+      background-color: #1ebc5a;
+    }
+
+    .whatsapp-icon {
+      font-size: 30px;
+    }
+
+  </style>
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Bootslander
-  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -42,8 +58,6 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename"><img src="./assets/img/Hospicard_logotipo.png" alt=""></h1>
       </a>
       
@@ -99,7 +113,11 @@
         <g class="wave3">
           <use xlink:href="#wave-path" x="50" y="9"></use>
         </g>
-      </svg>
+      </svg>  
+      <!-- Botão Flutuante WhatsApp -->
+  <a href="https://wa.me/33429458" target="_blank" class="whatsapp-float" title="Fale conosco no WhatsApp">
+    <i class="bi bi-whatsapp whatsapp-icon"></i>
+  </a>
 
     </section><!-- /Hero Section -->
 
@@ -183,7 +201,6 @@
           <option value="cardio">Cardiologista</option>
           <option value="Anestesista">Anestesista</option>
           <option value="CirurgiaGeral">Cirurgia Geral</option>
-         
           <option value="Estetica">Estetica</option>
           <option value="Dentista">Dentista</option>
           <option value="Demartologista">Demartologiasta</option>
@@ -208,11 +225,8 @@
           <option value="Traumato">Traumato</option>
           <option value="Urologista">Urologista</option>
           <option value="Analisesclinicas">Analises Clinicas</option>        
-          
-          
         </select>
       </div>
-      
       <div id="team-section" class="hidden">
         <!-- Team Section -->
         <section id="team" class="team section">
@@ -233,12 +247,6 @@
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section">
-
-      <!-- Section Title
-         <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>*/ -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Planos</h2>
         <div><span>Confira nossos</span> <span class="description-title">Planos</span></div>
@@ -359,31 +367,20 @@
 
               </ul>
             </div>
-          </div><!-- End Pricing Item -->
-
-
+          </div> End Pricing Item -->
         </div>
-
       </div>
-
     </section><!-- /Pricing Section -->
-
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
 
       <div class="container-fluid">
-
         <div class="row gy-4">
-
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Perguntas</span><strong> Frequentes</strong></h3>
-              
+              <h3><span>Perguntas</span><strong> Frequentes</strong></h3>           
             </div>
-
             <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-
               <div class="faq-item faq-active">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Existe algum limite de idade para fazer adesão ou participar, considerando que já sou de meia-idade??</h3>
@@ -392,7 +389,6 @@
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
-
               <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3> Existe algum período de carência para começar a utilizar o cartão Hospcard após a adesão?</h3>
@@ -401,42 +397,23 @@
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
-
-            <!--  <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
             </div>
-
           </div>
-
-          <div class="col-lg-5 order-1 order-lg-2">
+        <div class="col-lg-5 order-1 order-lg-2">
             <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
           </div>
         </div>
-
       </div>
-
     </section><!-- /Faq Section -->
-
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contato</h2>
         <div><span>Confira nosso</span> <span class="description-title">Contato</span></div>
       </div><!-- End Section Title -->
-
       <div class="container" data-aos="fade" data-aos-delay="100">
-
         <div class="row gy-4">
-
           <div class="col-lg-4">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -453,31 +430,15 @@
                 <p>(54)33429479</p>
               </div>
             </div><!-- End Info Item -->
-
-           
-
           </div>
-
-
         </div>
-
       </div>
-
     </section><!-- /Contact Section -->
-
   </main>
-
   <footer id="footer" class="footer dark-background">
-
-    
-
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Hospital Cristo Redentor</strong> <span>Todos os Direitos</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Desenvolvido  pelo Setor De TI
       </div>
     </div>

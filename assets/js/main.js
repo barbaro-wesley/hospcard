@@ -198,116 +198,54 @@ document.addEventListener("DOMContentLoaded", () => {
 const doctors = {
   clinico: [
     {
-      name: "Ana Claudia M.Ferreira",
-      role: "Clínico Geral",
-      /*image: "assets/img/team/team-1.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drjoaosilva",
-        facebook: "https://facebook.com/drjoaosilva",
-        instagram: "https://instagram.com/drjoaosilva",
-        linkedin: "https://linkedin.com/in/drjoaosilva",
-      },
-    },
-    {
       name: "Divane Lodi",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "(54) 99105-0664",
     },
     {
       name: "Carlos Seibel",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "(54) 3342-6808",
     },
     
     {
       name: "Henrique Tessaro",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "(54) 3342-9414",
     },
     
     {
       name: "Claudio Fernando Feltrin",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Tiago Bordignon",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: " 3347-2425",
     },
     {
       name: "Sissiane Escobar de Souza",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
-    },
-    {
-      name: "Cassius Furtado",
-      role: "Clínico Geral",
-      /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "3347-2425",
     },
     {
       name: "Jefferson Cunha",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "(54) 3175-0095",
     },
     {
-      name: "Egle André Pinto De Almeida",
+      name: "GABRIEL SELLA",
       role: "Clínico Geral",
       /*image: "assets/img/team/team-2.jpg",*/
-      social: {
-        twitter: "https://twitter.com/dramariaoliveira",
-        facebook: "https://facebook.com/dramariaoliveira",
-        instagram: "https://instagram.com/dramariaoliveira",
-        linkedin: "https://linkedin.com/in/dramariaoliveira",
-      },
+      phone: "(54) 3342-9414",
     },
     
     
@@ -317,34 +255,19 @@ const doctors = {
       name: "Giovanna Belo Sarturi",
       role: "Neurologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Paulo Mesquita Filho",
       role: "Neurologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Ricardo L.Bortoluz",
       role: "Neurologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-9414",
     },
   ],
   cardio: [
@@ -352,67 +275,37 @@ const doctors = {
       name: "Pedro Ivo Bittencourt Santana",
       role: "Cardiologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Cristiane Seibel",
       role: "Cardiologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-6808",
     },
     {
       name: "Cristiano Lorenzini Noskoski",
       role: "Cardiologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-0674",
     },
     {
       name: "Heloisa D Agustin Poli",
       role: "Cardiologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-3455",
     },
     {
       name: "Juan Nunes Pagnussat",
       role: "Cardiologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Juliana Noskoski",
       role: "Cardiologista",
       /*image: "assets/img/team/team-3.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drcarlosmendes",
-        facebook: "https://facebook.com/drcarlosmendes",
-        instagram: "https://instagram.com/drcarlosmendes",
-        linkedin: "https://linkedin.com/in/drcarlosmendes",
-      },
+      phone: "(54) 3342-2022",
     },
   ],
   Anestesista: [
@@ -420,23 +313,13 @@ const doctors = {
       name: "Olinto Adolfo Dos Santos",
       role: "Anestesista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99168-7255",
     },
     {
       name: "Clinica Foresti",
       role: "Anestesista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9165-7995",
     },
   ],
   CirurgiaGeral: [
@@ -444,144 +327,79 @@ const doctors = {
       name: "Alvaro Gonçalves",
       role: "Cirurgia Geral",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Ana Carolina Carnieletto",
       role: "Cirurgia Geral",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-6368",
     },
     {
       name: "Guilherme Garcia Vieira",
       role: "CirurgiaGeral",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Diego Mattioni Maturana",
       role: "CirurgiaGeral / AP Digestivo",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Rafaela Lazzari Pietroski",
       role: "CirurgiaGeral / AP Digestivo",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "José Maria Titto",
       role: "CirurgiaGeral / AP Digestivo",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Matheo Casagrande",
       role: "CirurgiaGeral / AP Digestivo",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99269-8006",
     },
     {
       name: "Joao Isidro Fracasso",
       role: "Cirurgião Torácico",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "José Missio",
       role: "Cirurgia Vascular",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(11) 98888-8888",
     },
     {
       name: "Jaber Salet",
       role: "Cirurgia Vascular",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "Henrique Biavatti",
       role: "Cirurgia Plastica",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 98403-0808",
     },
     {
       name: "Tomas Bergonsi",
       role: "Cirurgia Plastica",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-1729",
     },
     {
       name: "Cleiton Vitoria Alan",
       role: "Cirurgia Plastica",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-3756",
     },
     
   ],
@@ -590,23 +408,13 @@ const doctors = {
       name: "La Aser Depilação e Estetica",
       role: "Depilação e Estetica",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 99183-8347",
     },
     {
       name: "Liberty Laser",
       role: "Estetica,Saúde e Emagrecimento",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 99371-0425",
     },
 
   ],
@@ -615,101 +423,56 @@ const doctors = {
       name: "Clinica Denvita-Dra Esther Zanin",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9890",
     },
     {
       name: "Clinica Denvita-Dr Ademar Waskievicz",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9890",
     },
     {
       name: "Clinica Douglas Tibola",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 3342-8328",
     },
     {
       name: "Odontocell-Dra Thais Cristiane Tosati",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "5499143-4458",
     },
     {
       name: "Dental Med",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-1967",
     },
     {
       name: "Debora Ferlin",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 3342-3118",
     },
     {
       name: "Dual Odontologia Estetica",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(11) 98888-8888",
       
     },
     {
       name: "CP Ondontologia Estética",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: " 54 99233-8215",
     },
     {
       name: "Denzato Odontologia",
       role: "Dentista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99994-9080",
     },
 
   ],
@@ -718,56 +481,31 @@ const doctors = {
       name: "Camila Coutinho",
       role: "Demartologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 98418-7813",
     },
     {
       name: "Adines Nardi",
       role: "Demartologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-3756",
     },
     {
       name: "Giovana Binda",
       role: "Demartologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)98414-9981",
     },
     {
       name: "Jonathan Pressoto",
       role: "Demartologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-2022",
     },
     {
       name: "Odair Nardi",
       role: "Medicina Estetica",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-3756",
     },
   ],
   Endocrinologista:[
@@ -775,34 +513,19 @@ const doctors = {
       name: "João Batista Ben",
       role: "Endocrinologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-3057",
     },
     {
       name: "Juan Nunes Pagnussat",
       role: "Endocrinologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Karina Rucker",
       role: "Endocrinologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-2022",
     },
   ],
   Fonoaudiologa:[
@@ -810,34 +533,18 @@ const doctors = {
       name: "Anaeli Rossato",
       role: "Fonoaudiologa",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 99940-6101",
     },    
     {
       name: "Leticia Korb",
       role: "Fonoaudiologa",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "47 9152-6130",
     },
     {
       name: "Thais Dagostin",
       role: "Fonoaudiologa",
-      /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "9100-5471",
     },
   ],
   Fisioterapia:[
@@ -845,88 +552,48 @@ const doctors = {
       name: "Evolue Fisioterapia ",
       role: "Convencional,Neurológica,Domiciliar,Pilates",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54996450484",
     },    
     {
       name: "Naissa Soares ",
       role: "Fisioterapia domiciliar,Ambulatorio",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "9153-0076",
     },
     {
       name: "Angela Ganzer Gazola",
       role: "Pilates, Fisioterapia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 999550485",
     },
     {
       name: "Thais Zanuzzo",
       role: "Fisioterapia e MicroFisioterapia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "9164-1840",
     },
     {
       name: "Trattare Clinica de Fisioterapia",
       role: "Fisioterapia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-0999",
     },
     {
       name: "Fisio Derm Clinica de Fisioterapia",
       role: "Pilates, Fisioterapia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 3342-2936",
     },
     {
       name: "Fisioartty Fisioterapia",
       role: "Pilates, Fisioterapia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "54 9998-0509",
     },
     {
       name: "Gabriela Durante Fisioterapia Ortopédica e quiropraxia",
       role: "Pilates, Fisioterapia, quiropraxia",
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "98422-1849",
     },
   ],
   GO:[
@@ -934,111 +601,61 @@ const doctors = {
       name: "Lilian Opelt Donin",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)3342-3269",
     },    
     {
       name: "Ana Corolina Brocco",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)99628-5836",
     },
     {
       name: "Alessandro Luis Reginato",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-3756",
     },
     {
       name: "Cristiane Faccio",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-4477",
     },
     {
       name: "Francisco Itiel Romero",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Leandro Bortolon",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-1743",
     },
     {
       name: "Hilda Cerato",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(11) 98888-8888",
     },
     {
       name: "Silvane Rigo",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-1590",
     },
     {
       name: "Everaldo Manoel Tonato",
       role:"Ginecologista e Obstetricia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-8179",
     },
     {
       name: "Juliana Lorenzini Noskoski",
       role:"Ginecologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-2022",
     },
   ],
   GastroEnterologista:[
@@ -1046,56 +663,31 @@ const doctors = {
       name: "Diego Mattioni Maturana",
       role: "GastroEnterologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Rafaela Lazzari Pietroski",
       role: "GastroEnterologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Matheo Casagrande",
       role: "GastroEnterologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99269-8006",
     },
     {
       name: "Milton Bergamo",
       role: "GastroEnterologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99269-8006",
     },
     {
       name: "José Maria Tito",
       role: "GastroEnterologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9499",
     },
   ],
   Hematologista:[
@@ -1103,12 +695,7 @@ const doctors = {
       name: "Willian Scheffer Chaves",
       role: "Hematologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
   ],
   Mastologista:[
@@ -1116,12 +703,7 @@ const doctors = {
       name: "Liege Graebin",
       role: "Mastologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
   ],
   Nutricionista:[
@@ -1129,89 +711,49 @@ const doctors = {
       name: "Ana Daniela Carnieletto",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-6368",
     },
     {
       name: "Luana Xavier",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9907-6366",
     },
     {
       name: "Monica Cuchi",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-2483",
     },
     {
       name: "Clinica Equilibrio",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-6974",
     },
     {
       name: "Angela Maria Berton",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99148-4807",
     },
     {
       name: "Cristiane Leal Scortegagna",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 996734180",
     },
     {
       name: "Júlia Rigo",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 991479082",
     },
     {
       name: "Thaiyna Scortegagna De Morais",
       role: "Nutricionista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99647-9956",
     },
     
   ],
@@ -1220,12 +762,7 @@ const doctors = {
       name: "Giovanna Bello Sarturi",
       role: "Nefrologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
   ],
   Oftamologista:[
@@ -1233,45 +770,25 @@ const doctors = {
       name: "Byanca Foresti",
       role: "Oftamologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99129-7990",
     },
     {
       name: "Manfron",
       role: "Oftamologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99238-6116",
     },
     {
       name: "Werner Holderied",
       role: "Oftamologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-2603 ",
     },
     {
       name: "Thaise Federizzi",
       role: "Oftamologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-0713",
     },
     
   ],
@@ -1280,34 +797,19 @@ const doctors = {
       name: "Erik Xavier da Silva Pinto",
       role: "Otorrinolaringologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)3342-1565",
     },
     {
       name: "Tatiani Yamamoto",
       role: "Otorrinolaringologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 93505-9404",
     },
     {
       name: "Mariele Bressan",
       role: "Otorrinolaringologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     
   ],
@@ -1316,67 +818,37 @@ const doctors = {
       name: "Dyamas Alberto Biasi",
       role: "Pediatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)3342-9414",
     },
     {
       name: "Kelen Cristine Federizzi",
       role: "Pediatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-0713",
     },
     {
       name: "Marcio Carnieletto",
       role: "Pediatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-6368",
     },
     {
       name: "Amanda Sandri",
       role: "Pediatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99253-0943",
     },
     {
       name: "Thiago Bonfanti",
       role: "Pediatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-6923",
     },
     {
       name: "Edson M da Fontoura",
       role: "Pediatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)3342-2828",
     },
   ],
   Psiquiatra:[
@@ -1384,102 +856,45 @@ const doctors = {
       name: "Ricardo Bicca",
       role: "Psiquiatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Carlos Eduardo R Gavioli",
       role: "Psiquiatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-5294",
     },
     {
       name: "Eduardo N. Mello Filho",
       role: "Psiquiatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 8411-5294",
     },
     {
       name: "Luciane Miozzo",
       role: "Psiquiatra",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
-    },
-    {
-      name: "Thiago Bonfanti",
-      role: "Pediatra",
-      /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
-    },
-    {
-      name: "Edson M da Fontoura",
-      role: "Pediatra",
-      /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
-    },
+      phone: "(54) 3342-2022",
+    }
   ],
   Pneumologista:[
     {
       name: "Rafael Cadore",
       role: "Pneumologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "Vitor Hugo Souza Santos",
       role: "Pneumologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
     {
       name: "João Isidro Fracasso",
       role: "Pneumologista",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     },
   ],
   Psicologia:[
@@ -1487,287 +902,158 @@ const doctors = {
       name: "AUGUSTO BEBBER MARRONI",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9664-5530",
     },
     {
       name: "ALINE BASSO ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9655-8010",
     },
     {
       name: "DAIANE PRADEGAN ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9604-3018",
     },
     {
       name: "ELIANE MARIA BIFFE ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-2022",
     },
     {
       name: "EDIMARA ANA PAGOTO ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 999141670",
     },
     {
       name: "NATIELI BERGAMASCHI ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99193-2027",
     },
     {
       name: "THANISE FERNANDES ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-5294",
     },
     {
       name: "FRANCIELI SOTILLE BRUGNERA ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(11) 9633-3249",
     },
     {
       name: "CLÍNICA FLOWRESCER  ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9612-1233",
     },
     {
       name: "CLÍNICA EQUILÍBRIO  ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-6974",
     },
     {
       name: "ANA PAULA DEON  LIFE CLIN",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(11) 98888-8888",
     },
     {
       name: "ANA PAULA DEON  LIFE CLIN",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99710-0386",
     },
     {
       name: "KARINE ALBERTI DE OLIVEIRA",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99696-8009",
     },
     {
       name: "MEIRE TOMASI",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(11) 98888-8888",
     },
     {
       name: "MARIA LUISA GUZELA",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99939-9139",
     },
     {
       name: "LILIAN STOLFO MACULAN RETTORE ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)99978-4337",
     },
     {
       name: "MATIELE PEREIRA PACHECO",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(55)981161216",
     },
     {
       name: "MAYARA LARICE DE SOUSA OLIVEIRA",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99116-9590",
     },
     {
       name: "NATACHA LIANA GATTO ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99159-5506",
     },
     {
       name: "MARCELLE CALDEIRA",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 996408174",
     },
     {
       name: "ANDRESSA ROCHA TIBOLLA ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 999388027",
     },
     {
       name: "CARLA J. STUMPF",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99606-7162",
     },
     {
       name: "JOSSANDRA BELUSSO",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99115-0288",
     },
     {
       name: "ALANA BRANDELERO PORTO ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99903-5782",
     },
     {
       name: "RAQUEL VIRGINIA MOREIRA ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99698-2275",
     },
     {
       name: "CASSIA BONAMIGO DA COSTA ",
       role: "Psicologia",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99989-2663",
+      
     },
    
   ],
@@ -1776,34 +1062,19 @@ const doctors = {
       name: "ISELDA MORSOLIN FERREIRA ",
       role: " Podologa",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 9906-0791",
     },
     {
       name: "JOZIELI MARIANO",
       role: "Podologa",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 8432-6525",
     },
     {
       name: "SIMONE MONTUANI",
       role: "Podologa",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 99181-7647",
     },
   ], 
   Reumatologista:[
@@ -1811,12 +1082,7 @@ const doctors = {
       name: "ANDERSON NAPP ROCHA ",
       role: "REUMATOLOGISTA ",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54)3342-9414",
     },
   ], 
   Traumato:[
@@ -1824,111 +1090,61 @@ const doctors = {
       name: "AUGUSTO ALVES BADOTTI ",
       role: "TRAUM / COLUNA",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "DIEGO COLLARES  ",
       role: "TRAUM / COLUNA",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "EDER MENEGASSI MARTEL",
       role: "TRAUM / OMBRO COTOV",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "LUCAS SCHIRMER MARTINS",
       role: "TRAUM/ MÃO E PUNHO",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "MARCIO MEZZOMO",
       role: "TRAUMATO / JOELHO ",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "MARIO AUGUSTO DIAS",
       role: "TRAUM / JOELHO",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "MATEUS BREITENBACH SCHERER",
       role: "TRAUM/ PÉS / TORNOZELO",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "BRUNO ROSS ",
       role: "TRAUM/ QUADRIL",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "MARCELO CAMARGO DE ASSIS ",
       role: "TRAUM/ ORTOP PEDIÁ",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     {
       name: "JULIANO DOS SANTOS SUZIN ",
       role: "TRAUM/ PÉS / TORNOZELO ",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9426",
     },
     
   ],
@@ -1937,48 +1153,30 @@ const doctors = {
       name: "HENRIQUE ULGUIM PERIN ",
       role: "Urologista ",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
     }, 
     {
       name: "RODRIGO BALOTIN",
       role: "Urologista ",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      phone: "(54) 3342-9414",
+      
+    
     }, 
     {
       name: "MARCELO G JUSTOS (PREVENCARDIO)",
       role: "Urologista ",
+      phone: "(54) 3342-2022",
       /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+     
     }, 
       
   ],
   Analisesclinicas:[
     {
       name: "HCR LAB  ",
-      role: "Urologista ",
-      /*image: "assets/img/team/team-5.jpg",*/
-      social: {
-        twitter: "https://twitter.com/drricardolopes",
-        facebook: "https://facebook.com/drricardolopes",
-        instagram: "https://instagram.com/drricardolopes",
-        linkedin: "https://linkedin.com/in/drricardolopes",
-      },
+      role: "Analises Clinicas ",
+      phone: "(54) 3342-9428",
     }, 
       
   ]
@@ -2006,11 +1204,8 @@ document.getElementById("menu-options").addEventListener("change", (event) => {
           <div class="member-info">
             <h4>${doctor.name}</h4>
             <span>${doctor.role}</span>
-            <div class="social">
-              <a href="${doctor.social.twitter}" target="_blank"><i class="bi bi-twitter"></i></a>
-              <a href="${doctor.social.facebook}" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="${doctor.social.instagram}" target="_blank"><i class="bi bi-instagram"></i></a>
-              <a href="${doctor.social.linkedin}" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <div class="contact">
+              <i class="bi bi-telephone-fill"></i> ${doctor.phone}
             </div>
           </div>
         </div>
@@ -2024,4 +1219,5 @@ document.getElementById("menu-options").addEventListener("change", (event) => {
     teamSection.classList.add("hidden");
   }
 });
+
 
